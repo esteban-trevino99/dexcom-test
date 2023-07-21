@@ -1,4 +1,10 @@
 # DEXCOM-TEST
+### Stack used
+1. Node v18.16.0
+2. Express v4.18.2
+3. React v.18.2.0
+4. Next v13.4.10
+
 ### Instructions
 1. `cd api`
 2. `npm install`
