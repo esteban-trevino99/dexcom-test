@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next build && next start",
+    "env": "cp ./env/.local.env ./ && mv .local.env .env.local",
     "lint": "next lint"
   },
   "dependencies": {
