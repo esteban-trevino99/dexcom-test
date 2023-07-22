@@ -17,4 +17,4 @@
 
 ### For testing
 9. Go to `localhost:3000`
-10. `npm run test`
+10. `npm run test` on `/api`
