@@ -43,10 +43,7 @@ export default function Excercise1() {
     const [solved, setSolved]: [input: boolean, setInput: React.Dispatch<boolean>] = useState(false);
     const { exercise, styleClasses } = data
 
-    const validateNumbers = (data: Array<String>): boolean => {
-        if (data.find(item => Number.isNaN(Number(item)))) return false
-        return true
-    }
+    const validateNumbers = (data: Array<String>): boolean => !data.find(item => Number.isNaN(Number(item)));
     const getResult = () => {
         const data = input.split(",")
         if (!validateNumbers(data)) {
