@@ -16,5 +16,5 @@
 8. `npm run start`
 
 ### For testing
-9. Go to `localhost:3000`
-10. `npm run test` on `/api`
+9. Go to `localhost:3000` to start application
+10. For unit testing, run `npm run test` on `/api`
